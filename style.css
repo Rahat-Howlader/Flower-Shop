@@ -1,0 +1,247 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 1.25rem 6%;
+ display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+/* a CSS property that defines the order of overlapping HTML elements. Elements with a higher index will be placed on top of elements with a lower index. */
+box-shadow: 0 .5rem 1rem rgba(0,0, 0,.1);
+}
+
+header .logo{
+  font-size: 1.90rem;
+}
+
+header .navbar a{
+  font-size: 1.5rem;
+  color: #666;
+  padding: 0 .75rem;
+}
+
+header .navbar a:hover{
+  color: pink;
+}
+
+
+header .icons a{
+  font-size: 1.25rem;
+  margin-left: .25rem;
+
+}
+
+header .icons a:hover{
+  color: pink;
+}
+
+header .fa-bars{
+  font-size: 2rem;
+  color: #333;
+  border-radius: .5rem;
+  padding: .5rem 1.5rem;
+  cursor:pointer;
+  border: .1rem solid rgba(0,0,0,.3);
+  display: none;
+}
+
+header #toggler{
+  display: none;
+}
+
+.home{
+  min-height: 100vh;
+  background: url(washington.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.content{
+  text-align: center;
+margin-left: 50%;
+transform: translateX(-50%);
+}
+
+.content h1{
+  min-width: 768px;
+  font-size: 2rem;
+}
+
+.content p{
+  padding: 2px 4rem;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  padding: .9rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover{
+  background-color: purple;
+}
+
+
+.heading{
+  width: 100%;
+  background: pink;
+  text-align: center;
+  margin: 30px 0;
+  padding: 20px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.col-1{
+  flex-basis: 30%;
+  margin: 25px 10px;
+  background: #fff3f3;
+  border-radius: 5px;
+  padding: 20px 12px;
+}
+
+.col-1:hover{
+  box-shadow:0 0 20px 0px rgba(224, 11, 11, 0.2);
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.col-1 h3{
+  line-height: 50px;
+}
+
+
+.box-one{
+  width: 100%;
+  display: flex;
+}
+
+.col-2{
+  flex-basis: 22%;
+  text-align: center;
+  margin: 25px 10px;
+  background: #fff3f3;
+  border-radius: 5px;
+  /* padding: 20px 12px; */
+  align-items: center;
+  padding: 20px 22px;
+ 
+}
+
+.col-2:hover{
+  box-shadow:0 0 20px 0px rgba(224, 11, 11, 0.2);
+  cursor: pointer;
+}
+
+.col-2 .price{
+  display: flex;
+  justify-content: space-between;
+}
+.col-2 img{
+  width: 100%;
+  height: 80%;
+  padding: 5px;
+}
+
+.col-2 img:hover{
+  transform: scale(1.1);
+  transition: 1s;  }
+
+
+  .col-3{
+    flex-basis: 30%;
+    margin: 15px 20px;
+    text-align: center;
+  padding: 40px 20px;
+  background: rgba(245, 174, 174, 0.1);
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 1s;
+
+  }
+
+  .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+  }
+
+  .col-3:hover{
+    box-shadow:0 0 20px 0px rgba(224, 11, 11, 0.2);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s; 
+  }
+
+  .ratings .fa-solid{
+    color: #ff523b;
+    margin-top: 5px;
+  }
+  
+  .col-4{
+    flex-basis: 50%;
+    margin: 20px 2rem;
+  }
+
+  .col-4 form{
+    background: whitesmoke;
+    width: 100%;
+    height: auto;
+    padding:2rem 2.5rem;
+    border:.1rem solid rgba(0,0, 0,.1);
+  }
+
+  .col-4 form .box{
+    padding: .1rem;
+    font-size: 1rem;
+    color: #333;
+    border:.1rem solid rgba(0,0, 0,.1);
+    border-radius: .5rem;
+    margin: .7rem 0;
+    width: 100%;
+  
+  }
+
+  .col-4 img{
+  width: 100%;
+  height: 100%;
+  background: whitesmoke;
+
+  }
+
+  .col-4:hover{
+    transform: scale(1.1);
+    transition: 1s;
+  }
+
+  .footer{
+    width: 100%;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  

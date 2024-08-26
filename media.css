@@ -1,0 +1,68 @@
+@media (max-width:768px) {
+  header .fa-bars{
+    display: block;
+  }
+
+  header .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #eee;
+   border-top: .1rem solid rgba(0,0, 0,.1);
+   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+   /* tough  */
+  }
+
+ header #toggler:checked ~ .navbar{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);}
+  /* tough  */
+
+  header .navbar a{
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background: #fff;
+    border-top: .1rem solid rgba(0,0, 0,.1);
+    display: block;
+  }
+
+
+  .content h1{
+    font-size: 1.3rem;
+    min-width: 280px;
+  }
+
+  .content p{
+    display: none;
+  }
+  
+  .btn{
+    padding: 3px 4px;
+  }
+
+  .row{
+    flex-direction: column;
+    text-align: center;
+    margin: 15px 20px;
+  }
+
+  .box-one{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .col-2:hover{
+    cursor: pointer;
+
+  }
+
+  .col-2 img{
+    padding: 2rem 3rem;
+  }
+
+  .col-3{
+    margin: 15px 4rem;
+  }
+
+
+}
